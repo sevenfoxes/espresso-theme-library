@@ -1,0 +1,197 @@
+/*
+	@theme JellyBeans
+	@override-placeholders html, xml, css, php, sourcecode.js
+*/
+
+css property-name {
+	color: #ff79d8;
+}
+
+css property-value {
+	color: #bb7ef8;
+}
+
+css {
+	spell-check: disabled;
+}
+
+css.selector, css.selector > entity > punctuation {
+	color: #1ac2fc;
+}
+
+css property-list > property-name {
+	color: #ff79d8;
+}
+
+css property-list > property-value {
+	color: #bb7ef8;
+}
+
+css keyword.important {
+	color: #eeff8e;
+}
+
+css nzumeric {
+	color: #0bfead;
+}
+
+css zunit {
+	color: #0bfead;
+}
+
+css rgb-value {
+	color: #0bfead;
+}
+
+css property-list.block {
+	color: #fff;
+	font-size: 10px;
+}
+
+css.at-rule string, css.at-rule string punctuation, media.css > block > punctuation, property-list.css > property-value > punctuation {
+	color: #fff;
+}
+
+
+keyword.important.css {
+	font-weight: bold;
+	color: #6700b9;
+}
+
+
+@base {
+	color: #fff;
+	background-color: #141414;
+	insertion-point-color: #fff;
+	selection-background-color: default;
+	line-height: 20px;
+}
+
+tag, source, sourcecode {
+	spell-check: disabled;
+}
+
+tag, tag > string > punctuation {
+	oldcolor: #8FCFFF;
+	lessoldcolor: #9FDFFF;
+	color: #5FAFEF;
+}
+
+tag > name, tag > string.quoted - punctuation, attribute-with-value > string.quoted - punctuation {
+	oldcolor: #2F5F7F;
+}
+
+tag>name {
+	color: #89BDFF;
+}
+
+attribute-name, punctuation.definition.tag {
+	color: #89BDFF;
+	newcolor: #6FBFFF;
+}
+
+tag > string.quoted, tag > attribute-with-value > string.quoted {
+	color: #f7bdfd;
+}
+
+tag > string > punctuation {
+	font-weight: normal;
+}
+
+css.embedded attribute-name, css.embedded punctuation.definition.tag {
+	color: #fc9218;
+}
+
+comment, comment>punctuation, tag.doctype, tag.doctype > *, tag.doctype > string.quoted {
+	color: #AEAEAE;
+	font-style: italic;
+}
+
+tag.h1, tag.h1 * {
+	font-weight: bold;
+	color: #000000;
+}
+
+latex.function function - parameter, latex.keyword {
+	color: #fc4a61;
+}
+
+string.quoted {
+	color: #fe3d92;
+}
+
+string.quoted > escape {
+	background-color: #f7defe;
+	font-weight: bold;
+}
+
+variable {
+	color: #5bfe73;
+}
+
+variable>punctuation {
+	color: #5bfe73;
+}
+
+operator {
+	color: #0ffec5;
+}
+
+open-bracket, close-bracket {
+	color: #7f7f7f;
+}
+
+support.function, function-call {
+	color: #23e3fd;
+}
+
+support.constant.dom {
+	color: #fc9218;
+}
+
+keyword.control {
+	color: #c583fb;
+	font-style: italic;
+}
+
+storage.type {
+	color: #1c81fb;
+}
+
+function > name {
+	color: #89BDFF;
+}
+
+function > variable,
+variable.language {
+	color: #3E87E3;
+}
+
+meta.class.instance.constructor entity.name.type.instance {
+	color: #89BDFF;
+	text-decoration: underline !important;
+}
+
+keyword.operator,
+keyword.control {
+	color: #fcdf4c;
+}
+
+constant.numeric {
+	background-color: transparent;
+	color: #3E87E3;
+}
+
+js.embedded {
+	color: #fff;
+}
+
+invalid {
+	background-color: #f93232;
+	color: #f9f2ce;
+}
+
+textile > header {
+	color: #fff;
+	font-weight: bold;
+}

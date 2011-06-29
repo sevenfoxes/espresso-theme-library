@@ -1,0 +1,67 @@
+/*
+	@theme Cappuccino
+	@override-placeholders ruby, css, html, php
+  	@author Anthony Short - Based on the Railcasts theme
+  	
+  	Colors
+  		- #ddd text
+  		- #222 background
+  		- #555 Dark grey (Comments)
+  		- rgba(251, 199, 111, 1.00) Yellow
+  		- rgba(112, 155, 190, 1.00) Blue
+  		- rgba(164, 194, 97, 1.00) Red
+*/
+
+@base 
+{
+	color: #999;
+	background-color: #222;
+	insertion-point-color: #fff;
+	selection-background-color: #333;
+}
+
+tag, 
+source, 
+sourcecode,
+css
+{ spell-check: disabled; }
+
+processing-instruction { color:#aeaeae; }
+
+/* Yellow */
+selector,
+php builtin_function name
+{ color: rgba(251, 199, 111, 1.00); }
+
+/* Blue */
+property-name,
+tag,
+variable
+{ color: rgba(112, 155, 190, 1.00); }
+
+/* Green */
+property-value
+{ color: rgba(164, 194, 97, 1.00); }
+
+/* Red */
+php php.begin *,
+php keyword.modifier
+{ color: rgba(251, 90, 90, 1.00); }
+
+/* Orange */
+keyword.important,
+control 
+{ color: rgba(200, 121, 54, 1.00); }
+
+/* Grey */
+comment,
+tag.doctype
+{ color: #555; }
+
+/* Light Grey */
+php balanced
+{ color: #999;}
+
+/* Off-white */
+string 
+{ color: #b0c6e1; } 
